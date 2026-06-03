@@ -7,7 +7,6 @@ Originally created as a personal tool for searching and organizing YouTube conte
 ## Features
 
 - Search YouTube channels by name
-- Search videos by keywords
 - Find channels by ID
 - Save and manage selected channels locally
 - Retrieve video metadata and thumbnails
@@ -33,6 +32,14 @@ pip install google-api-python-client yt-dlp requests
 ## API Key
 
 Create a YouTube Data API key in Google Cloud Console.
+1. Open Google Cloud Console
+2. Create a new project
+3. Enable YouTube Data API v3
+4. Go to Credentials
+5. Create an API key
+
+Google Cloud Console:
+https://console.cloud.google.com/
 
 In Google Colab:
 ``` python
@@ -69,6 +76,8 @@ The focus was on:
 - lightweight automation;
 - cloud-hosted workflows;
 - personal tooling and infrastructure experimentation.
+
+It was designed to provide a simple and lightweight way to search and organize YouTube content using Google Colab and the YouTube Data API.
 
 ## License
 
